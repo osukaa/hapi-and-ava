@@ -1,0 +1,32 @@
+{
+  "name": "hapi-and-ava",
+  "version": "1.0.0",
+  "description": "testing hapi.js server with AVA test runner",
+  "main": "server.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osukaa/hapi-and-ava.git"
+  },
+  "keywords": [
+    "ava",
+    "hapi",
+    "testing"
+  ],
+  "author": "Oscar Funes <me@oscarfunes.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osukaa/hapi-and-ava/issues"
+  },
+  "homepage": "https://github.com/osukaa/hapi-and-ava#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/wreck": "^17.0.0",
+    "make-promises-safe": "^5.1.0"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0"
+  }
+}
